@@ -3,10 +3,9 @@ package application
 import (
 	"github.com/gorilla/mux"
 	"github.com/tannpv/bookstore_items-api/src/clients/elasticsearch"
+	"github.com/tannpv/bookstore_utils-go/logger"
 	"net/http"
 	"time"
-
-	"github.com/tannpv/bookstore_utils-go/logger"
 )
 
 var (
